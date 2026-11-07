@@ -1,0 +1,292 @@
+﻿{
+    "product":  {
+                    "id":  8609261617301,
+                    "title":  "Mix Chavanu | नमकीन मिक्स चवाणु | Mixture Namkeen | Gujarati Snacks",
+                    "body_html":  "\u003cp data-start=\"365\" data-end=\"639\"\u003eSavor the authentic taste of \u003cstrong data-start=\"394\" data-end=\"409\"\u003eMix Chavanu\u003c/strong\u003e, a crunchy and flavorful \u003cstrong data-start=\"435\" data-end=\"461\"\u003eGujarati namkeen snack\u003c/strong\u003e handcrafted by \u003cstrong data-start=\"477\" data-end=\"497\"\u003eBhagvat Prasadam\u003c/strong\u003e. Made from \u003cstrong data-start=\"509\" data-end=\"558\"\u003epremium lentils, peanuts, and aromatic spices\u003c/strong\u003e, this \u003cstrong data-start=\"565\" data-end=\"584\"\u003emixture namkeen\u003c/strong\u003e delivers the perfect balance of taste and tradition.\u003c/p\u003e\n\u003cp data-start=\"641\" data-end=\"976\"\u003eA timeless favorite among \u003cstrong data-start=\"667\" data-end=\"697\"\u003etraditional Indian namkeen\u003c/strong\u003e, our \u003cstrong data-start=\"703\" data-end=\"718\"\u003eMix Namkeen\u003c/strong\u003e is ideal for \u003cstrong data-start=\"732\" data-end=\"796\"\u003eDiwali snacks, festive gifting, or everyday tea-time delight\u003c/strong\u003e. Each bite is a crunchy blend of flavors that celebrates authenticity and purity. Bring home this \u003cstrong data-start=\"895\" data-end=\"917\"\u003espicy Indian snack\u003c/strong\u003e and enjoy a delicious part of India’s snacking heritage.\u003c/p\u003e",
+                    "vendor":  "bhagvatprasadam",
+                    "product_type":  "",
+                    "created_at":  "2024-09-10T14:15:43+05:30",
+                    "handle":  "mix-chavanu-mixture-namkeen-gujarati-snacks",
+                    "updated_at":  "2026-10-29T18:37:43+05:30",
+                    "published_at":  "2024-09-10T14:15:34+05:30",
+                    "template_suffix":  null,
+                    "published_scope":  "global",
+                    "tags":  "Affordable Namkeen Snack, Aromatic Snack, Authentic Gujarati Snacks, Authentic Indian Snack, Bhagvat Prasadam Namkeen, Bulk Order Namkeen, Crunchy Namkeen Snack, Crunchy Snack, Diwali Snacks, Dry Snacks India, Exclusive Product, Exotic Snack Mix, Exquisite Snack Blend, Festival Namkeen Snack, Flavorful Snack, Gourmet Snack Blend, Gourmet Snacks, Gujarati Namkeen, Healthy Namkeen Mix, Healthy Snack Mix, Homemade Namkeen, Indian Flavored Snack, Indian Namkeen Mixture, Indian Snack Mix, Indian Snacks List, Mix Chavanu, Mix Namkeen, Mixture Namkeen, Namkeen, Namkeen Gift Pack, Namkeen Snack, Premium Namkeen Mix, Premium Snack Blend, Savory Namkeen Mix, Savory Snack Mix, Snack Essentials, Spicy Indian Snack, Tea Time Namkeen, Traditional Gujarati Namkeen, Traditional Indian Namkeen, Vegan Snack Mix",
+                    "variants":  [
+                                     {
+                                         "id":  45431482253461,
+                                         "product_id":  8609261617301,
+                                         "title":  "1kg",
+                                         "price":  "425.00",
+                                         "sku":  "Mix Chavanu 1000 GM.",
+                                         "position":  1,
+                                         "compare_at_price":  "550.00",
+                                         "fulfillment_service":  "manual",
+                                         "inventory_management":  "shopify",
+                                         "option1":  "1kg",
+                                         "option2":  null,
+                                         "option3":  null,
+                                         "created_at":  "2024-09-28T10:19:01+05:30",
+                                         "updated_at":  "2026-10-29T18:37:43+05:30",
+                                         "taxable":  true,
+                                         "barcode":  "",
+                                         "grams":  1000,
+                                         "image_id":  null,
+                                         "weight":  1.0,
+                                         "weight_unit":  "kg",
+                                         "requires_shipping":  true,
+                                         "quantity_rule":  {
+                                                               "min":  1,
+                                                               "max":  null,
+                                                               "increment":  1
+                                                           },
+                                         "price_currency":  "INR",
+                                         "compare_at_price_currency":  "INR",
+                                         "quantity_price_breaks":  [
+
+                                                                   ]
+                                     },
+                                     {
+                                         "id":  67610041188501,
+                                         "product_id":  8609261617301,
+                                         "title":  "800gm",
+                                         "price":  "340.00",
+                                         "sku":  "Mix Chavanu 800 GM.",
+                                         "position":  2,
+                                         "compare_at_price":  "440.00",
+                                         "fulfillment_service":  "manual",
+                                         "inventory_management":  "shopify",
+                                         "option1":  "800gm",
+                                         "option2":  null,
+                                         "option3":  null,
+                                         "created_at":  "2026-10-01T17:32:03+05:30",
+                                         "updated_at":  "2026-10-29T18:37:43+05:30",
+                                         "taxable":  true,
+                                         "barcode":  null,
+                                         "grams":  800,
+                                         "image_id":  null,
+                                         "weight":  800.0,
+                                         "weight_unit":  "g",
+                                         "requires_shipping":  true,
+                                         "quantity_rule":  {
+                                                               "min":  1,
+                                                               "max":  null,
+                                                               "increment":  1
+                                                           },
+                                         "price_currency":  "INR",
+                                         "compare_at_price_currency":  "INR",
+                                         "quantity_price_breaks":  [
+
+                                                                   ]
+                                     },
+                                     {
+                                         "id":  45385754312853,
+                                         "product_id":  8609261617301,
+                                         "title":  "400gm",
+                                         "price":  "170.00",
+                                         "sku":  "Mix Chavanu 400 GM.",
+                                         "position":  3,
+                                         "compare_at_price":  "221.00",
+                                         "fulfillment_service":  "manual",
+                                         "inventory_management":  "shopify",
+                                         "option1":  "400gm",
+                                         "option2":  null,
+                                         "option3":  null,
+                                         "created_at":  "2024-09-10T14:15:44+05:30",
+                                         "updated_at":  "2026-10-29T18:37:43+05:30",
+                                         "taxable":  true,
+                                         "barcode":  "",
+                                         "grams":  400,
+                                         "image_id":  null,
+                                         "weight":  400.0,
+                                         "weight_unit":  "g",
+                                         "requires_shipping":  true,
+                                         "quantity_rule":  {
+                                                               "min":  1,
+                                                               "max":  null,
+                                                               "increment":  1
+                                                           },
+                                         "price_currency":  "INR",
+                                         "compare_at_price_currency":  "INR",
+                                         "quantity_price_breaks":  [
+
+                                                                   ]
+                                     },
+                                     {
+                                         "id":  45385754345621,
+                                         "product_id":  8609261617301,
+                                         "title":  "200gm",
+                                         "price":  "85.00",
+                                         "sku":  "Mix Chavanu 200 GM.",
+                                         "position":  4,
+                                         "compare_at_price":  "110.00",
+                                         "fulfillment_service":  "manual",
+                                         "inventory_management":  "shopify",
+                                         "option1":  "200gm",
+                                         "option2":  null,
+                                         "option3":  null,
+                                         "created_at":  "2024-09-10T14:15:44+05:30",
+                                         "updated_at":  "2026-10-29T18:37:43+05:30",
+                                         "taxable":  true,
+                                         "barcode":  "",
+                                         "grams":  200,
+                                         "image_id":  null,
+                                         "weight":  200.0,
+                                         "weight_unit":  "g",
+                                         "requires_shipping":  true,
+                                         "quantity_rule":  {
+                                                               "min":  1,
+                                                               "max":  null,
+                                                               "increment":  1
+                                                           },
+                                         "price_currency":  "INR",
+                                         "compare_at_price_currency":  "INR",
+                                         "quantity_price_breaks":  [
+
+                                                                   ]
+                                     }
+                                 ],
+                    "options":  [
+                                    {
+                                        "id":  10970177437845,
+                                        "product_id":  8609261617301,
+                                        "name":  "Weight",
+                                        "position":  1,
+                                        "values":  [
+                                                       "1kg",
+                                                       "800gm",
+                                                       "400gm",
+                                                       "200gm"
+                                                   ]
+                                    }
+                                ],
+                    "images":  [
+                                   {
+                                       "id":  46495822905493,
+                                       "product_id":  8609261617301,
+                                       "position":  1,
+                                       "created_at":  "2026-08-08T17:31:02+05:30",
+                                       "updated_at":  "2026-08-08T17:31:06+05:30",
+                                       "alt":  "Bhagvat Prasadam Mix Chavanu",
+                                       "width":  1254,
+                                       "height":  1254,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/1-_3.webp?v=1786190466",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46495823003797,
+                                       "product_id":  8609261617301,
+                                       "position":  2,
+                                       "created_at":  "2026-08-08T17:31:08+05:30",
+                                       "updated_at":  "2026-08-08T17:31:10+05:30",
+                                       "alt":  "Bhagvat Prasadam Mix Chavanu",
+                                       "width":  1254,
+                                       "height":  1254,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/mix_chavanu_f67dc3c7-2acc-4b52-81db-e7bc8ac5b268.webp?v=1786190470",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129297457301,
+                                       "product_id":  8609261617301,
+                                       "position":  3,
+                                       "created_at":  "2026-06-19T18:08:11+05:30",
+                                       "updated_at":  "2026-06-19T18:08:11+05:30",
+                                       "alt":  "Crunchy Mix Chavanu Gujarati namkeen snack",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/7388cdf4f1971f6ce3af87ddbb3505bb.webp?v=1781872691",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129297784981,
+                                       "product_id":  8609261617301,
+                                       "position":  4,
+                                       "created_at":  "2026-06-19T18:08:18+05:30",
+                                       "updated_at":  "2026-06-19T18:08:18+05:30",
+                                       "alt":  "Traditional mixture namkeen",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/ec8fc2e13417f5dee95851c7b1ee2ab7.webp?v=1781872698",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129298047125,
+                                       "product_id":  8609261617301,
+                                       "position":  5,
+                                       "created_at":  "2026-06-19T18:08:25+05:30",
+                                       "updated_at":  "2026-06-19T18:08:25+05:30",
+                                       "alt":  "Authentic Gujarati Mix Namkeen",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/94b469683ff41ae6b07b06db4a36da09.webp?v=1781872705",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129298342037,
+                                       "product_id":  8609261617301,
+                                       "position":  6,
+                                       "created_at":  "2026-06-19T18:08:32+05:30",
+                                       "updated_at":  "2026-06-19T18:08:32+05:30",
+                                       "alt":  "Affordable Mix Chavanu bulk namkeen snack",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/97cc5c01396a831c6c3ed0de42a98483.webp?v=1781872712",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129298571413,
+                                       "product_id":  8609261617301,
+                                       "position":  7,
+                                       "created_at":  "2026-06-19T18:08:39+05:30",
+                                       "updated_at":  "2026-06-19T18:08:39+05:30",
+                                       "alt":  "Traditional Indian namkeen mixture",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/11be707a4f38b2ddf8cd143f384c5d0d.webp?v=1781872719",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   },
+                                   {
+                                       "id":  46129298768021,
+                                       "product_id":  8609261617301,
+                                       "position":  8,
+                                       "created_at":  "2026-06-19T18:08:47+05:30",
+                                       "updated_at":  "2026-06-19T18:08:47+05:30",
+                                       "alt":  "Fresh Mix Namkeen perfect Diwali snacks",
+                                       "width":  1500,
+                                       "height":  1500,
+                                       "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/c816f47de546a339b91f3f406213fc9c.webp?v=1781872727",
+                                       "variant_ids":  [
+
+                                                       ]
+                                   }
+                               ],
+                    "image":  {
+                                  "id":  46495822905493,
+                                  "product_id":  8609261617301,
+                                  "position":  1,
+                                  "created_at":  "2026-08-08T17:31:02+05:30",
+                                  "updated_at":  "2026-08-08T17:31:06+05:30",
+                                  "alt":  "Bhagvat Prasadam Mix Chavanu",
+                                  "width":  1254,
+                                  "height":  1254,
+                                  "src":  "https://cdn.shopify.com/s/files/1/0673/6723/9829/files/1-_3.webp?v=1786190466",
+                                  "variant_ids":  [
+
+                                                  ]
+                              }
+                }
+}

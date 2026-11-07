@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #E5A323;
+  --color-gold-dark: #C98A15;
+  --color-gold-light: #F7C054;
+  --color-saffron: #F28C28;
+  --color-saffron-dark: #D47417;
+  --color-saffron-light: #FAAA5C;
+  --color-cream: #FFF8E9;
+  --color-cream-light: #FFFDF8;
+  --color-cream-dark: #F5E8D0;
+  --color-brown: #3B2418;
+  --color-brown-light: #5A3B2B;
+  --color-brown-muted: #7A5F4F;
+  --color-chilli: #B83220;
+  --color-chilli-dark: #962516;
+  --color-chilli-light: #D94935;
+  --color-beige: #E8DCC8;
+  --color-beige-light: #F6EFE3;
+  --color-beige-dark: #D6C6AC;
+
+  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: #FFF8E9;
+  color: #3B2418;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5A323;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F28C28;
+}
+
+/* Subtle Indian floral / radial pattern for warmth */
+.bg-subtle-pattern {
+  background-image: radial-gradient(rgba(59, 36, 24, 0.05) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
