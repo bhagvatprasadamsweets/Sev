@@ -1,5 +1,4 @@
 import { SevProductProvider } from './context/SevProductContext';
-import AnnouncementBar from './components/AnnouncementBar';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import BrandStory from './components/BrandStory';
@@ -17,10 +16,7 @@ export default function App() {
   return (
     <SevProductProvider>
       <div className="min-h-screen flex flex-col bg-[#FFF8E9] text-[#3B2418]">
-        {/* 1. Slim Announcement Bar with Target SEO Keywords */}
-        <AnnouncementBar text="AUTHENTIC SEV COLLECTION   AALOO SEV   RATLAMI SEV   SPECIAL BESAN SEV   100% PURE SING TEL   BHAGVAT PRASADAM" />
-
-        {/* 2. Sticky Header & Navigation */}
+        {/* Sticky Header with Rotating Free Shipping, Mobile App Discount, and Navigation */}
         <Navbar />
 
         {/* Main Content */}

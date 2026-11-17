@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, ExternalLink, ShoppingBag } from 'lucide-react';
+import AnnouncementBar from './AnnouncementBar';
 import { useSevProduct } from '../context/SevProductContext';
 
 export default function Navbar() {
@@ -38,7 +39,13 @@ export default function Navbar() {
     setIsMobileMenuOpen(false);
     const elem = document.getElementById(id);
     if (elem) {
-      elem.scrollIntoView({ behavior: 'smooth' });
+      const headerOffset = 115;
+      const elementPosition = elem.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -55,78 +62,81 @@ export default function Navbar() {
 
   return (
     <>
-      <header
-        className={`sticky top-0 z-40 w-full transition-all duration-300 ${
-          isScrolled
-            ? 'bg-[#FFF8E9]/95 backdrop-blur-md shadow-sm border-b border-[#E8DCC8] py-2 sm:py-2.5'
-            : 'bg-[#FFF8E9] py-2.5 sm:py-3.5 border-b border-transparent'
-        }`}
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between">
-            
-            {/* Mobile Hamburger Trigger */}
-            <div className="flex items-center lg:hidden">
-              <button
-                type="button"
-                onClick={() => setIsMobileMenuOpen(true)}
-                aria-label="Open menu"
-                className="p-2 -ml-2 rounded-xl text-[#3B2418] hover:bg-[#E8DCC8]/40 transition-colors cursor-pointer"
-              >
-                <Menu className="w-6 h-6" />
-              </button>
-            </div>
+      <header className="sticky top-0 z-40 w-full shadow-xs">
+        {/* LINE 1 & LINE 2: Rotating Free Shipping Announcement Bar & Mobile App Discount Banner */}
+        <AnnouncementBar />
 
-            {/* Brand Logo (Left) */}
-            <div className="flex-1 lg:flex-none text-center lg:text-left">
-              <a
-                href="#hero"
-                onClick={(e) => scrollTo(e, 'hero')}
-                className="inline-flex items-center gap-2 group cursor-pointer focus:outline-none py-1"
-                title="Bhagvat Prasadam Authentic Sev Collection"
-              >
-                <img
-                  src="/Logo.png"
-                  alt="Bhagvat Prasadam Official Logo"
-                  className="h-10 sm:h-12 md:h-14 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
-                />
-                <span className="hidden sm:inline-block font-display font-black text-sm tracking-tight text-[#3B2418]">
-                  SEV COLLECTION
-                </span>
-              </a>
-            </div>
-
-            {/* Navigation Links (Center - Desktop) */}
-            <nav className="hidden lg:flex items-center space-x-5 xl:space-x-6">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={`#${link.href}`}
-                  onClick={(e) => scrollTo(e, link.href)}
-                  className="text-xs font-bold uppercase tracking-wider text-[#3B2418] hover:text-[#F28C28] transition-colors cursor-pointer"
+        {/* LINE 3: Main Navbar */}
+        <div
+          className={`w-full transition-all duration-300 ${
+            isScrolled
+              ? 'bg-[#FFF8E9]/95 backdrop-blur-md shadow-sm border-b border-[#E8DCC8] py-2 sm:py-2.5'
+              : 'bg-[#FFF8E9] py-2.5 sm:py-3.5 border-b border-[#E8DCC8]/50'
+          }`}
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between min-h-[50px] sm:min-h-[54px]">
+              
+              {/* Mobile Hamburger Trigger */}
+              <div className="flex items-center lg:hidden">
+                <button
+                  type="button"
+                  onClick={() => setIsMobileMenuOpen(true)}
+                  aria-label="Open menu"
+                  className="p-2 -ml-2 rounded-xl text-[#3B2418] hover:bg-[#E8DCC8]/40 transition-colors cursor-pointer"
                 >
-                  {link.name}
+                  <Menu className="w-6 h-6" />
+                </button>
+              </div>
+
+              {/* Brand Logo (Left) */}
+              <div className="flex-1 lg:flex-none text-center lg:text-left">
+                <a
+                  href="#hero"
+                  onClick={(e) => scrollTo(e, 'hero')}
+                  className="inline-flex items-center group cursor-pointer focus:outline-none py-1"
+                  title="Bhagvat Prasadam Authentic Sev Collection"
+                >
+                  <img
+                    src="/Logo.png"
+                    alt="Bhagvat Prasadam Sev Logo"
+                    className="h-10 sm:h-12 md:h-13 w-auto object-contain transform group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+                  />
                 </a>
-              ))}
-            </nav>
+              </div>
 
-            {/* Right: Buy Now Button */}
-            <div className="hidden sm:flex items-center space-x-2">
-              <a
-                href={activeProduct.buyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-[#E5A323] hover:bg-[#F28C28] text-[#3B2418] hover:text-white text-xs font-black uppercase tracking-wider transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 cursor-pointer"
-                title="Buy Now on Bhagvat Prasadam"
-              >
-                <ShoppingBag className="w-3.5 h-3.5" />
-                <span>Buy Now</span>
-              </a>
+              {/* Navigation Links (Center - Desktop) */}
+              <nav className="hidden lg:flex items-center space-x-3.5 xl:space-x-5 whitespace-nowrap">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.name}
+                    href={`#${link.href}`}
+                    onClick={(e) => scrollTo(e, link.href)}
+                    className="text-xs font-bold uppercase tracking-wider text-[#3B2418] hover:text-[#F28C28] transition-colors cursor-pointer whitespace-nowrap"
+                  >
+                    {link.name}
+                  </a>
+                ))}
+              </nav>
+
+              {/* Right: Buy Now Button */}
+              <div className="hidden sm:flex items-center space-x-2">
+                <a
+                  href={activeProduct.buyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-xl bg-[#E5A323] hover:bg-[#F28C28] text-[#3B2418] hover:text-white text-xs font-black uppercase tracking-wider transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 cursor-pointer"
+                  title="Buy Now on Bhagvat Prasadam"
+                >
+                  <ShoppingBag className="w-3.5 h-3.5" />
+                  <span>Buy Now</span>
+                </a>
+              </div>
+
+              {/* Symmetrical Spacer for Mobile Layout to Keep Logo Centered */}
+              <div className="w-10 sm:hidden" aria-hidden="true" />
+
             </div>
-
-            {/* Symmetrical Spacer for Mobile Layout to Keep Logo Centered */}
-            <div className="w-10 sm:hidden" aria-hidden="true" />
-
           </div>
         </div>
       </header>
@@ -153,12 +163,9 @@ export default function Navbar() {
               >
                 <img
                   src="/Logo.png"
-                  alt="Bhagvat Prasadam"
+                  alt="Bhagvat Prasadam Sev Logo"
                   className="h-10 w-auto object-contain"
                 />
-                <span className="font-display font-black text-xs text-[#3B2418]">
-                  SEV COLLECTION
-                </span>
               </a>
 
               <button

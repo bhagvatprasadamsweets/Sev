@@ -132,6 +132,18 @@ export default function HeroSection() {
               </div>
             </div>
 
+            {/* Promotional Free Shipping Badges */}
+            <div className="flex flex-wrap items-center justify-start gap-2 mb-4">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFF3DF] border border-[#E5A323]/35 text-xs font-semibold text-[#8B4513] shadow-2xs">
+                <span className="text-[#E5A323] font-bold">✓</span>
+                <span>Free Shipping above ₹999</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFF3DF] border border-[#E5A323]/35 text-xs font-semibold text-[#8B4513] shadow-2xs">
+                <span className="text-[#E5A323] font-bold">✓</span>
+                <span>First Order: Free Shipping above ₹599</span>
+              </div>
+            </div>
+
             {/* 5. Primary & Secondary CTAs */}
             <div className="flex flex-wrap items-center gap-3 mb-6">
               <a

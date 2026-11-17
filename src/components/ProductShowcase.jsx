@@ -120,6 +120,18 @@ export default function ProductShowcase() {
               <p className="text-center text-[11px] text-[#7A5F4F]">
                 Redirects securely to Bhagvat Prasadam official Shopify checkout
               </p>
+
+              {/* Promotional Free Shipping Badges */}
+              <div className="flex flex-wrap items-center justify-center gap-2 pt-1 pb-1">
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFF3DF] border border-[#E5A323]/35 text-xs font-semibold text-[#8B4513] shadow-2xs">
+                  <span className="text-[#E5A323] font-bold">✓</span>
+                  <span>Free Shipping above ₹999</span>
+                </div>
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFF3DF] border border-[#E5A323]/35 text-xs font-semibold text-[#8B4513] shadow-2xs">
+                  <span className="text-[#E5A323] font-bold">✓</span>
+                  <span>First Order: Free Shipping above ₹599</span>
+                </div>
+              </div>
             </div>
 
             {/* Purity Guarantee Checklist */}
